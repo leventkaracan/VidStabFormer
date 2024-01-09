@@ -2,7 +2,7 @@
 
 Official implementation of "VidStabFormer: Full-frame Video Stabilization via Spatial-Temporal Transformers"
 
-[STTN_VideoStab_rev1](https://github.com/leventkaracan/VidStabFormer/assets/2334419/3b73c9d4-6494-476e-a984-29c001272215)
+![STTN_VideoStab_rev1](https://github.com/leventkaracan/VidStabFormer/assets/2334419/3b73c9d4-6494-476e-a984-29c001272215)
 
 ## Introduction
 

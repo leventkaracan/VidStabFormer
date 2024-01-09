@@ -2,7 +2,7 @@
 
 Official implementation of "VidStabFormer: Full-frame Video Stabilization via Spatial-Temporal Transformers"
 
-![STTN_VideoStab_rev1](https://github.com/leventkaracan/VidStabFormer/assets/2334419/3b73c9d4-6494-476e-a984-29c001272215)
+[STTN_VideoStab_rev1](https://github.com/leventkaracan/VidStabFormer/assets/2334419/3b73c9d4-6494-476e-a984-29c001272215)
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This study proposes a new full-frame video stabilization model leveraging spatia
 
 - Test environment packages are in packages.txt. We will prepare it as yaml file soon!
 
-- Download the pre-trained ![model](https://drive.google.com/file/d/1vsUKHu6zNrP12Qeeqho_-ppuMunx-zWU/view?usp=sharing) and put it inside the "models" folder. 
+- Download the pre-trained [model](https://drive.google.com/file/d/1vsUKHu6zNrP12Qeeqho_-ppuMunx-zWU/view?usp=sharing) and put it inside the "models" folder. 
 
 - Clone https://github.com/sniklaus/pytorch-pwc inside model folder. We only used a modified version of its backwarp function. 
 

@@ -4,7 +4,7 @@ import numpy as np
 import math
 import torch.optim as optim
 import torch.nn as nn
-from datasetVTFSelfie import SelfieVTF
+from datasetVTF import SelfieVTF
 from torch.utils.data import DataLoader, Dataset
 from torchvision.utils import save_image
 
@@ -98,7 +98,7 @@ if(args.resume!=None):
 
 model.eval()
 
-path2 = '/home/semiha/MyProjects/ABME/Datasets'
+path2 = './data'
 
 img_size = (480,856)
 transform=transforms.Compose([
@@ -106,7 +106,6 @@ transform=transforms.Compose([
                                       transforms.ToTensor()
                                            ])
 
-test_res_file = open("test_son_selfie.txt", "a")
 iter=0
 
 train_dataset = SelfieVTF(path2, type="test", transform=transform, num_skips=5,img_size = img_size)

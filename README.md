@@ -4,7 +4,9 @@ Offical implementation of "VidStabFormer: Full-frame Video Stabilization via Spa
 
 Preparation: 
 
-Clone https://github.com/sniklaus/pytorch-pwc inside model folder. We used a modified version of its backwarp function. 
+Download our latest model: https://drive.google.com/file/d/1vsUKHu6zNrP12Qeeqho_-ppuMunx-zWU/view?usp=sharing and put it inside the "models" folder. 
+
+Clone https://github.com/sniklaus/pytorch-pwc inside model folder. We only used a modified version of its backwarp function. 
 
 Follow the CVPR2020 paper implementation of "Yu and Ramamoorthi, 2020" in https://github.com/alex04072000/FuSta/tree/main for creating warping field of any video. 
 

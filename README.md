@@ -1,10 +1,12 @@
 # VidStabFormer: Full-frame Video Stabilization via Spatial-Temporal Transformers
 
-Offical implementation of "VidStabFormer: Full-frame Video Stabilization via Spatial-Temporal Transformers"
+Official implementation of "VidStabFormer: Full-frame Video Stabilization via Spatial-Temporal Transformers"
 
 ![STTN_VideoStab_rev1](https://github.com/leventkaracan/VidStabFormer/assets/2334419/3b73c9d4-6494-476e-a984-29c001272215)
 
 ## Introduction
+
+This study proposes a new full-frame video stabilization model leveraging spatial-temporal transformer architecture to fill missing regions that arise after the camera path smoothing. We also propose a new temporal self-supervised learning strategy to train the model. Experimental results show that the proposed model performs better than existing full-frame video stabilization counterparts.
 
 ## Installation
 

@@ -2,7 +2,7 @@
 
 Offical implementation of "VidStabFormer: Full-frame Video Stabilization via Spatial-Temporal Transformers"
 
-Preparation: 
+<b>Preparation: </b>
 
 test environment packages are in packages.txt. We will prepare it as yaml file soon!
 

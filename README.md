@@ -22,10 +22,21 @@ Put video and warping fields in data folder. You can use "1" for video frames an
 
 Example video and warping fields: https://drive.google.com/file/d/1HXNcJoSwcPDa0OTcaIltAKgJRWxFhAsZ/view?usp=sharing https://drive.google.com/file/d/1AizEWjEK1zQTvRRsdUUWzijTnooWKlvf/view?usp=sharing
 
-run test.sh for generating the stable video. 
+## Testing VidStabFormer
+
+You can test VidStabFormer using the following script.
+
+`./test.sh`
+
+## Contact
 
 Please open an issue for any problem. We will answer it as soon as possible. 
 
-Citation: 
 
-SOON
+## Citing VidStabFormer
+
+```
+Soon
+```
+
+

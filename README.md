@@ -4,7 +4,9 @@ Offical implementation of "VidStabFormer: Full-frame Video Stabilization via Spa
 
 ![STTN_VideoStab_rev1](https://github.com/leventkaracan/VidStabFormer/assets/2334419/3b73c9d4-6494-476e-a984-29c001272215)
 
+## Introduction
 
+## Code
 <b>Preparation: </b>
 
 test environment packages are in packages.txt. We will prepare it as yaml file soon!

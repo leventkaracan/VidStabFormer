@@ -20,7 +20,7 @@ This study proposes a new full-frame video stabilization model leveraging spatia
 
 - Put video and warping fields in the data folder. You can use "1" for video frames and "1_wf" for warping fields. You can put multiple videos. Add video frame numbers inside test.txt. 
 
-- Example video and warping fields: https://drive.google.com/file/d/1HXNcJoSwcPDa0OTcaIltAKgJRWxFhAsZ/view?usp=sharing https://drive.google.com/file/d/1AizEWjEK1zQTvRRsdUUWzijTnooWKlvf/view?usp=sharing
+- [Example video](https://drive.google.com/file/d/1HXNcJoSwcPDa0OTcaIltAKgJRWxFhAsZ/view?usp=sharing) and related [warping fields](https://drive.google.com/file/d/1AizEWjEK1zQTvRRsdUUWzijTnooWKlvf/view?usp=sharing)
 
 ## Testing VidStabFormer
 

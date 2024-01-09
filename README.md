@@ -14,6 +14,8 @@ Put video and warping fields in data folder. You can use "1" for video frames an
 
 run test.sh for generating the stable video. 
 
+Please open an issue for any problem. We will answer it as soon as possible. 
+
 Citation: 
 
 SOON

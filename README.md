@@ -6,12 +6,11 @@ Offical implementation of "VidStabFormer: Full-frame Video Stabilization via Spa
 
 ## Introduction
 
-## Code
-<b>Preparation: </b>
+## Installation
 
-test environment packages are in packages.txt. We will prepare it as yaml file soon!
+Test environment packages are in packages.txt. We will prepare it as yaml file soon!
 
-Download our latest model: https://drive.google.com/file/d/1vsUKHu6zNrP12Qeeqho_-ppuMunx-zWU/view?usp=sharing and put it inside the "models" folder. 
+Download the pre-trained ![model](https://drive.google.com/file/d/1vsUKHu6zNrP12Qeeqho_-ppuMunx-zWU/view?usp=sharing) and put it inside the "models" folder. 
 
 Clone https://github.com/sniklaus/pytorch-pwc inside model folder. We only used a modified version of its backwarp function. 
 

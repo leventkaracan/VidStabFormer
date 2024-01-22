@@ -632,7 +632,6 @@ class VidStabFormer(BaseNetwork):
         W = 256
         H = 256
         tenOnes = torch.ones_like(features[0])[:, 0:1, :, :]
-        tenOnes = torch.nn.ZeroPad2d((W, W, H, H))(tenOnes).detach()
         tenOnes_orig = torch.ones_like(unstable)[:, 0:1, :, :]
 
         orig_F_kprime_to_k = F_kprime_to_k.clone()
@@ -675,16 +674,13 @@ class VidStabFormer(BaseNetwork):
 
             """first forward warping"""
             tenWarpedFirst = softsplat.softsplat(tenIn=tenRef, tenFlow=ref_frame_flow, tenMetric=None, strMode='avg')
-            tenMaskFirst = softsplat.softsplat(tenIn=tenOnes, tenFlow=ref_frame_flow, tenMetric=None, strMode='avg')
 
             tenWarpedSecond = backwarp(tenInput=tenWarpedFirst, tenFlow=F_kprime_to_k_pad)
-            tenMaskSecond = backwarp(tenInput=tenMaskFirst, tenFlow=F_kprime_to_k_pad)
 
             tenWarped = tenWarpedSecond[:, :, H:-H, W:-W]
-            tenMask = torch.abs(tenMaskSecond[:, :, H:-H, W:-W]-1)
 
             tenWarpedFeat.append(tenWarped)
-            tenWarpedMask.append(tenMask)
+            tenWarpedMask.append(tenOnes)
 
         def length_sq(x):
             return torch.sum(x ** 2, dim=1, keepdim=True)

@@ -36,7 +36,15 @@ Please open an issue for any problem. We will answer it as soon as possible.
 ## Citing VidStabFormer
 
 ```
-Soon
+@article{Karacan2025, 
+author = {Levent Karacan and Mehmet Sarıgül},
+title = {Full-frame video stabilization via spatiotemporal transformers},
+year = {2025},
+journal = {Computational Visual Media},
+volume = {11},
+number = {3},
+pages = {655-667}
+}
 ```
 
 
